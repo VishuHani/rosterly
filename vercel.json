@@ -12,13 +12,6 @@
       "dest": "/api/$1"
     }
   ],
-  "env": {
-    "SUPABASE_URL": "@supabase-url",
-    "SUPABASE_SERVICE_KEY": "@supabase-service-key",
-    "OPENAI_API_KEY": "@openai-api-key",
-    "VECTOR_SIM_THRESHOLD": "0.83",
-    "FCM_SERVER_KEY": "@fcm-server-key"
-  },
   "crons": [
     {
       "path": "/api/notification-worker",
